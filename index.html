@@ -3,38 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Brain Freeze</title>
+    <title>Brain Freeze homepage</title>
      <link rel="icon" type="image/x-icon" href="onlineicon-quiz.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-    <a class="navbar-brand" href="#">Brain Freeze</a>
+    <a class="navbar-brand" href="index.html">
+      <img src="onlineicon-quiz.svg" alt="Brain Freeze" 
+      width="30" height="30" class="d-inline-block align-text-top">  Brain Freeze</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Quizes
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">War</a></li>
-            <li><a class="dropdown-item" href="#">Maths</a></li>
+            <li><a class="dropdown-item" href="webquiz.html">Web</a></li>
+            <li><a class="dropdown-item" href="math.html">Maths</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Web</a></li>
+              <li><a class="dropdown-item" href="warriorwar.html">War</a></li> 
+            <li><a class="dropdown-item" href="historywebquiz.html">History</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -44,53 +42,13 @@
     </div>
   </div>
 </nav>
-<div class="row">
+<div class="row" style="min-height: 80vh; display: flex; align-items: center;
+background-image: url('backgroundimage.png'); background-size: cover; background-position: center;">
   <div class="col-2"></div>
-  <div class="col-8"><h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Welcome to Brain Freeze</strong></h1>
-    <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Where curiosity meets fun😜</h3>
+  <div class="col-8">
+    <h1 style="font-size: 70px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #1c66e3;font-weight: bold;">Think Fast.Think hard.<br/><i>Stay sharp!</i></h1>
+    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #e39910;font-weight: bold;">Brain freeze is a little moment of fun when your brain pauses...then suddenly clicks!</p>
+  </div>
   <div class="col-2"></div>
-</div>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="maths.jpg"card-img-top" alt="maths">
-      <div class="card-body">
-        <h5 class="card-title">Math</h5>
-        <p class="card-text">Test your endurance.</p>
-        <a href="math.html"target="_blank">jibambe</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="History2.0.png"class="card-img-top" alt="History">
-      <div class="card-body">
-        <h5 class="card-title">History</h5>
-        <p class="card-text">Think about the past.</p>
-        <a href="historywebquiz.html"target="_new">Thinker</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="Terriweb.jpeg" class="card-img-top" alt="Web">
-      <div class="card-body">
-        <h5 class="card-title">Web development essentials quiz</h5>
-        <p class="card-text" >Have fun😜.</p>
-        <a href="webquiz.html"target="_new">Spiderbaddie</a>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="warrior2.0.png" class="card-img-top" alt="Warrior">
-      <div class="card-body">
-        <h5 class="card-title">War</h5>
-        <p class="card-text">Test your knowledge on war.</p>
-        <a href="warriorwar.html"target="_new">Warrior</a>
-      </div>
-    </div>
-  </div>
-</div>
 </body>
 </html>
